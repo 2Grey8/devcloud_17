@@ -1,0 +1,92 @@
+.application{
+  width: 192rem;
+
+  &__wrap{
+    width: 140rem;
+    display: block;
+    margin: 0 auto;
+  }
+
+  &__inner{
+    width: 140rem;
+    margin: 0 auto;
+    margin-bottom: 10rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  &__img{
+    display: block;
+    width: 58.7rem;
+    height: 62.4rem;
+    margin-right: 8.7rem;
+  }
+
+  &__container{
+    display: block;
+    width: 80rem;
+  }
+
+  &__title{
+    display: block;
+    width: 65.6rem;
+    text-align: left;
+    margin-bottom: 4rem;
+  }
+
+  &__text{
+    display: block;
+    width: 79.2rem;
+    text-align: left;
+    margin-bottom: 5.5rem;
+  }
+
+  &__btn{
+    display: block;
+    width: 26.7rem;
+    padding-top: 1rem;
+    padding-bottom: 1.1rem;
+    box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 32px;
+  }
+
+  &__group{
+    width: 140rem;
+    margin: 0 auto;
+    margin-bottom: 10rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  &__box{
+    display: block;
+    width: 34rem;
+    margin-right: 2.5rem;
+    padding-top: 6.9rem;
+    padding-left: 5.5rem;
+    padding-bottom: 7rem;
+    text-align: left;
+    box-shadow: 3px 4px 12px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+
+    &-title{
+      display: block;
+      width: 20rem;
+      margin-bottom: .9rem;
+    }
+
+    &-text{
+      display: block;
+      width: 21.6rem;
+      margin-bottom: 3.6rem;
+    }
+
+    &-btn{
+      display: block;
+      width: 12.4rem;
+      padding-top: 1rem;
+      padding-bottom: 1.1rem;
+      text-decoration: none;
+    }
+  }
+}

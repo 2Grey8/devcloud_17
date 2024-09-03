@@ -1,0 +1,105 @@
+.header{
+  width: 192rem;
+
+  &__wrap{
+    display: block;
+    width: 160rem;
+    margin: 0 auto;
+    margin-bottom: 10rem;
+    padding-top: 2.8rem;
+    padding-bottom: 2.8rem;
+    background: rgba(41, 162, 140, 0.11);
+
+    @include respond(phone){
+      display: block;
+    }
+
+    @include respond(port){
+      display: block;
+    }
+
+    @include respond(land){
+      display: block;
+    }
+  }
+
+  &__group{
+    width: 160rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    @include respond(phone){
+      display: block;
+    }
+
+    @include respond(port)
+    {
+      width: 90rem;
+      display: block;
+    }
+
+    @include respond(land){
+      width: 120rem;
+      display: block;
+    }
+  }
+
+  &__logo{
+    display: block;
+    width: 27rem;
+    height: 5.2rem;
+
+    @include respond(phone){
+      display: block;
+    }
+
+    @include respond(port){
+      display: block;
+      margin: 0 auto;
+      margin-bottom: 5rem;
+    }
+
+    @include respond(land){
+      display: block;
+      margin: 0 auto;
+      margin-bottom: 5rem;
+    }
+  }
+
+  &__navigation{
+    display: block;
+    width: 89rem;
+  }
+
+  &__list{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+    @include respond(phone){
+      display: block;
+    }
+
+    @include respond(port){
+      width: 40rem;
+      flex-wrap: wrap;
+    }
+
+    @include respond(land){
+      width: 110rem;
+      flex-wrap: wrap;
+    }
+  }
+
+  &__item{
+    list-style: none;
+
+    a{
+      text-decoration: none;
+      color: #000;
+    }
+  }
+}
